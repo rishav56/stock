@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:darkslategray;
+ }
+.header{
+    
+    
+    text-align: Left;
+    padding: 25px;
+    background-color:rgb(136, 133, 133);
+
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    gap: 15px;
+   margin-left: 40px;
+}
+
+
+nav ul li{
+  cursor: pointer;
+
+}
+nav ul li:hover{
+    color: whitesmoke;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(136, 133, 133);
+}
+ #word{
+    margin-top: 0px;
+    text-align: center;
+   padding : 40px;
+
+    height: min-content;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 20px;
+ }
+
+#box{
+    display: flex;
+    height: 232px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 15px 20px;
+    font-size: 40px;
+    background-color:grey;
+    color: white;
+    border-radius: 50px;
+
+}
+.image{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+   margin-top: 50px;
+   margin-left: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 200px;
+    width: 300px;
+    color: whitesmoke;
+    border-radius: 30px;
+    background-color:  rgba(251, 251, 251, 0.451);
+    
+}
+#course{
+   
+    font-weight: 900px;
+    font-family: monospace;
+   
+}
+
+
+.button{
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 15px;
+    background-color: rgb(34, 34, 31);
+    padding: 10px;
+    width: 150px;
+    height: min-content;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 30px;
+    border: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:rgb(190, 171, 24) ;
+}
+ .disc{
+    display: flex;
+      height: min-content;
+      width: 1000px;
+      background-color: grey;
+      font-weight: 800;
+      padding: 20px 20px 20px;
+      border-radius: 40px;
+     
+}
+ .disc .warning{
+
+    font-weight: 400;
+      font-size: 50px;
+      color: whitesmoke;
+      text-align: center;
+}
