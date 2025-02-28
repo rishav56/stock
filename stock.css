@@ -13,12 +13,17 @@ body {
 }
 
 .header {
-
-
+    
+    display: flex;
+    gap: 10px;
     text-align: Left;
     padding: 25px;
     background-color: rgb(136, 133, 133);
 
+}
+img{
+    height: 50px;
+    width: 50px;
 }
 
 
